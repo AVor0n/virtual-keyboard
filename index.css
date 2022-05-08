@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    gap: 6px;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key_second-char {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    color: gray;
+    font-size: 0.6em;
+}
+
+.key.pressed {
+    background-color: silver;
+    border: 1px solid gray;
+}
+
+.key-Delete {
+    width: 44px;
+}
+
+.key-Tab {
+    width: 50px;
+}
+
+.key-Enter,
+.key-ShiftRight {
+    width: 86px;
+}
+
+.key-Backspace,
+.key-ShiftLeft,
+.key-CapsLock {
+    width: 100px;
+}
+
+.key-Space {
+    width: 330px;
+}
+
+.textarea {
+    width: 700px;
+    height: 30vh;
+}
