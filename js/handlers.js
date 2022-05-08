@@ -6,7 +6,8 @@ export function initKeyboardHandlers() {
         $pressedKey.classList.add('pressed');
 
         if (e.shiftKey && e.altKey && !e.repeat) {
-            changeLanguage();
+            const lang = changeLanguage();
+            localStorage.setItem('lang', lang);
         }
     });
 

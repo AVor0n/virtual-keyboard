@@ -55,4 +55,6 @@ export function changeLanguage() {
             }
         });
     });
+
+    return lang;
 }
